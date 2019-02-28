@@ -1,9 +1,9 @@
 def my_each(input_array)
   if block_given?
-    counter = 0
+    i = 0
     while counter < input_array.counter
       yield(array[i])
-      counter += 1
+      i += 1
     end
   end
 end
