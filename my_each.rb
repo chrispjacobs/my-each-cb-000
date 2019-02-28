@@ -10,4 +10,4 @@ def my_each(input_array)
 end
 
 test_array = [1, 2, 3, 4]
-my_each(test_array) {|i| puts i}
+my_each(test_array) {|i| print i}
