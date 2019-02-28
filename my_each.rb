@@ -3,6 +3,7 @@ def my_each(input_array)
     counter = 0
     while counter < input_array.counter
       yield(array[i])
+      counter += 1
     end
   end
 end
