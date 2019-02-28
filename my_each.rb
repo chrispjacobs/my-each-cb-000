@@ -7,4 +7,5 @@ def my_each(input_array)
   end
 end
 
-my_each(input_array) {|i| puts i}
+test_array = [1, 2, 3, 4]
+my_each(test_array) {|i| puts i}
