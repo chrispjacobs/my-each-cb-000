@@ -5,6 +5,7 @@ def my_each(input_array)
       yield(input_array[i])
       i += 1
     end
+    input_array
   end
 end
 
